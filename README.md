@@ -1,4 +1,4 @@
-# app
+# Nuxt-To-Do-App
 
 ## Visit
 https://nuxt-todo-app-three.vercel.app/
