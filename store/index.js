@@ -15,7 +15,7 @@ export const mutations = {
 		var data=JSON.stringify(datajs)
 		localStorage.setItem('tasks',data)
 		state.tasks=JSON.parse(localStorage.getItem('tasks'))
-		//state.tasks.splice(state.tasks.indexOf(task), 1);
+
 	},
 	TOGGLE_TASK(state, thistask) {
 		var datajs=state.tasks.map((task)=>{
@@ -26,6 +26,5 @@ export const mutations = {
 		var data=JSON.stringify(datajs)
 		localStorage.setItem('tasks',data)
 		state.tasks=JSON.parse(localStorage.getItem('tasks'))
-		//task.done = !task.done;
 	}
 }
